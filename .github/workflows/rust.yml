@@ -16,14 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
     - name: Build
-      run: cargo build --release --verbose
-    - name: Run tests
-      run: cargo test --verbose
+      run: cargo build --release --verbose && ls -lha /home/runner/work/sonic/sonic/target/release
     
     - name: Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: sonic-server
         path: |
-          /home/runner/work/sonic/sonic/target/release/sonic-server
+          /home/runner/work/sonic/sonic/target/release
