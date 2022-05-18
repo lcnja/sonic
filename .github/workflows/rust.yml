@@ -25,4 +25,4 @@ jobs:
       with:
         name: sonic-server
         path: |
-          /home/runner/work/sonic/sonic/target/release
+          /home/runner/work/sonic/sonic/target/release/sonic
