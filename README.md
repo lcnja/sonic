@@ -9,7 +9,7 @@ Sonic can be used as a simple alternative to super-heavy and full-featured searc
 
 A strong attention to performance and code cleanliness has been given when designing Sonic. It aims at being crash-free, super-fast and puts minimum strain on server resources (our measurements have shown that Sonic - when under load - responds to search queries in the μs range, eats ~30MB RAM and has a low CPU footprint; [see our benchmarks](https://github.com/valeriansaliou/sonic#how-fast--lightweight-is-it)).
 
-_Tested at Rust version: `rustc 1.58.1 (db9d1b20b 2022-01-20)`_
+_Tested at Rust version: `rustc 1.60.0 (7737e0b5c 2022-04-04)`_
 
 **🇫🇷 Crafted in Nantes, France.**
 
@@ -59,7 +59,9 @@ Sonic is integrated in all Crisp search products on the [Crisp](https://crisp.ch
 
 ### Installation
 
-Sonic is built in Rust. To install it, use `cargo install` or pull the source code from `master`.
+Vigil is built in Rust. To install it, either download a version from the [Sonic releases](https://github.com/valeriansaliou/sonic/releases) page (if any), use `cargo install` or pull the source code from `master`.
+
+👉 _Each release binary comes with an `.asc` signature file, which can be verified using [@valeriansaliou](https://github.com/valeriansaliou) GPG public key: [:key:valeriansaliou.gpg.pub.asc](https://valeriansaliou.name/files/keys/valeriansaliou.gpg.pub.asc)._
 
 **👉 Install from source:**
 
@@ -192,6 +194,7 @@ Sonic supports a wide range of languages in its lexing system. If a language is 
 
 * 🇿🇦 Afrikaans
 * 🇸🇦 Arabic
+* 🇦🇲 Armenian
 * 🇦🇿 Azerbaijani
 * 🇧🇩 Bengali
 * 🇧🇬 Bulgarian
@@ -208,8 +211,10 @@ Sonic supports a wide range of languages in its lexing system. If a language is 
 * 🇪🇪 Estonian
 * 🇫🇮 Finnish
 * 🇫🇷 French
+* 🇬🇪 Georgian
 * 🇩🇪 German
 * 🇬🇷 Greek
+* 🇮🇳 Gujarati
 * 🇮🇱 Hebrew
 * 🇮🇳 Hindi
 * 🇭🇺 Hungarian
@@ -233,6 +238,7 @@ Sonic supports a wide range of languages in its lexing system. If a language is 
 * 🇸🇮 Slovene
 * 🇪🇸 Spanish
 * 🇸🇪 Swedish
+* 🇵🇭 Tagalog
 * 🇮🇳 Tamil
 * 🇹🇭 Thai
 * 🇹🇷 Turkish
